@@ -20,11 +20,11 @@ for item in root.findall("customer"):
     listOfCustomers.append(customer)
 
 for customer in listOfCustomers:
-    toUpdateOrToInsert = to_update_or_to_insert(customer)
+    updateOrInsertResult = update_or_insert(customer)
 
-    if toUpdateOrToInsert == "to_update":
+    if updateOrInsertResult == "to_update":
         update_data_base(myDataBase, root.tag, customer)
-    elif toUpdateOrToInsert == "to_insert":
+    elif updateOrInsertResult == "to_insert":
         insert_into_database(myDataBase, root.tag, customer)
     else:
         print("Error")
