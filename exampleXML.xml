@@ -1,0 +1,14 @@
+<customers>
+    <customer>
+        <first_name>Franciszek</first_name>
+        <last_name>Szpachla</last_name>
+        <birth_date>1990-02-11</birth_date>
+        <phone_number>235-244-124</phone_number>
+    </customer>
+    <customer>
+        <first_name>Piotr</first_name>
+        <last_name>Piotrowski</last_name>
+        <birth_date>2006-06-12</birth_date>
+        <phone_number>756-233-111</phone_number>
+    </customer>
+</customers>
