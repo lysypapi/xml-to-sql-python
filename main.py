@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 import mysql.connector
-from functionDataBase import *
+from database_functions import *
 
 myDataBase = mysql.connector.connect(
     host="localhost",
