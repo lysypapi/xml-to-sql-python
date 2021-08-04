@@ -41,7 +41,7 @@ def update_data_base(
     
     
     
-def to_update_or_to_insert(dictOfValues):
+def update_or_insert(dictOfValues):
     for key in dictOfValues:
         if "id" in key:
             return "to_update"
