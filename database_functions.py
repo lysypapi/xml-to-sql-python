@@ -19,7 +19,7 @@ def insert_into_database(
     
     
     
-def update_data_base(
+def update_database(
         myDataBase,
         tableName,
         columnNameAndValues
