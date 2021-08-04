@@ -10,7 +10,7 @@ myDataBase = mysql.connector.connect(
 )
 
 listOfCustomers = []
-tree = ET.parse("document.xml")
+tree = ET.parse("exampleXML.xml")
 root = tree.getroot()
 for item in root.findall("customer"):
     customer = {
