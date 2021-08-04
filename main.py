@@ -23,7 +23,7 @@ for customer in listOfCustomers:
     updateOrInsertResult = update_or_insert(customer)
 
     if updateOrInsertResult == "to_update":
-        update_data_base(myDataBase, root.tag, customer)
+        update_database(myDataBase, root.tag, customer)
     elif updateOrInsertResult == "to_insert":
         insert_into_database(myDataBase, root.tag, customer)
     else:
